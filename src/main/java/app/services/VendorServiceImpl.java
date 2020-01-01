@@ -4,10 +4,12 @@ import app.entities.Vendor;
 import app.repos.VendorRepository;
 import app.services.VendorService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class VendorServiceImpl implements VendorService {
 
 

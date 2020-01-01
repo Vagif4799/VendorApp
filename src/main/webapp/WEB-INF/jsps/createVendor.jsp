@@ -23,6 +23,9 @@ Address: <textarea name="address" rows="4" cols="50"></textarea>
       </pre>
 </form>
 
+${msg}
+
+<a href="displayVendors">View All</a>
 
 </body>
 </html>

@@ -2,8 +2,10 @@ package app.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table(name = "vendors")
 public class Vendor {
 
     @Id
